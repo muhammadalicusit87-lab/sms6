@@ -1,0 +1,1 @@
+export const feeFeature = { heads: ['Admission Fee', 'Monthly Tuition', 'Annual Fund', 'Exam Fee', 'Transport Fee', 'Miscellaneous'], supportsPartialPayments: true }
