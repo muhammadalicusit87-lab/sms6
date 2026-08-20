@@ -1,0 +1,1 @@
+export const studentFeature = { admissionNumberPrefix: 'HA-24', archivePolicy: 'soft-delete only', supportsUrdu: true, supportsFamilies: true }
