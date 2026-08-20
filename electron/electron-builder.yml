@@ -1,0 +1,15 @@
+appId: com.horizonacademy.schoolos
+productName: Horizon Academy School OS
+directories:
+  output: release
+files:
+  - dist/**
+  - electron/**
+  - package.json
+win:
+  target:
+    - nsis
+  artifactName: Horizon-Academy-School-OS-${version}.${ext}
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
