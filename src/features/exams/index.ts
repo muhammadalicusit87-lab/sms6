@@ -1,0 +1,1 @@
+export const examFeature = { gradingSchemes: ['Matric percentage', 'Cambridge letter grading'], calculatesRank: true, printReportCards: true }
