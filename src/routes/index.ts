@@ -1,0 +1,1 @@
+export const routeKeys = ['dashboard', 'students', 'classes', 'fees', 'attendance', 'exams', 'staff', 'timetable', 'reports', 'expenses', 'settings', 'cards'] as const
