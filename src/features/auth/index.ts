@@ -1,0 +1,1 @@
+export const authFeature = { mode: 'local', roles: ['owner', 'manager'], persistence: 'mock session' }
