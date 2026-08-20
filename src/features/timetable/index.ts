@@ -1,0 +1,1 @@
+export const timetableFeature = { views: ['class', 'teacher'], clashAware: true, printReady: true }
