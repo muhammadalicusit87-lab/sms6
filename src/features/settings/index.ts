@@ -1,0 +1,1 @@
+export const settingsFeature = { backup: 'local file workflow placeholder', accountManagement: true, academicYear: true }
