@@ -1,0 +1,1 @@
+export const attendanceFeature = { statuses: ['Present', 'Absent', 'Leave', 'Late'], staffRegister: true, monthlyRegister: true }
