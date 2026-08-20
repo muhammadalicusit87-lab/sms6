@@ -1,0 +1,1 @@
+export const classesFeature = { sections: true, classTeachers: true, subjects: true, feeStructures: true, promotion: true }
