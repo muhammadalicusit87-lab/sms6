@@ -1,0 +1,1 @@
+export const staffFeature = { ownerOnlyData: ['salary', 'payroll'], includesLeave: true, includesAttendance: true }
