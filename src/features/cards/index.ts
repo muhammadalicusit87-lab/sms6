@@ -1,0 +1,1 @@
+export const cardsFeature = { templates: ['student-id', 'character', 'leaving', 'bonafide'], supportsPrint: true, supportsUrdu: true }
