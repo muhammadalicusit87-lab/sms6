@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { box-sizing: border-box; }
+body { margin: 0; background: #f7f8fc; color: #172033; font-family: 'DM Sans', sans-serif; }
+h1,h2,h3,h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
+button, input, select { font: inherit; }
+.card { background: #fff; border: 1px solid #e8ebf2; border-radius: 14px; box-shadow: 0 3px 14px rgba(30, 42, 72, .035); }
+.label { display: block; color: #667085; font-size: .75rem; font-weight: 700; letter-spacing: .01em; }
+.input { width: 100%; border: 1px solid #dfe3ec; background: #fff; color: #172033; border-radius: 9px; padding: .7rem .8rem; outline: none; transition: .15s; }
+.input:focus { border-color: #7184d0; box-shadow: 0 0 0 3px rgba(113,132,208,.12); }
+.btn-primary, .btn-secondary, .btn-small { display: inline-flex; align-items: center; justify-content: center; gap: .45rem; border-radius: 9px; font-weight: 700; font-size: .8rem; padding: .7rem 1rem; transition: .15s; }
+.btn-primary { background: #263d83; color: white; box-shadow: 0 5px 12px rgba(38,61,131,.16); }
+.btn-primary:hover { background: #1d306d; transform: translateY(-1px); }
+.btn-secondary { background: white; color: #344054; border: 1px solid #dfe3ec; }
+.btn-secondary:hover, .btn-small:hover { border-color: #aeb9df; background: #f8f9ff; }
+.btn-small { padding: .42rem .65rem; border: 1px solid #dfe3ec; color: #344054; background: white; font-size: .72rem; }
+.eyebrow { color: #6374b6; font-size: .68rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.badge { display: inline-flex; align-items: center; border-radius: 999px; padding: .25rem .55rem; font-size: .68rem; font-weight: 700; }
+.badge.blue { color: #3150a4; background: #eaf0ff; }.badge.green { color: #087443; background: #e6f7ee; }
+.badge.rose { color: #bd303d; background: #ffedef; }.badge.amber { color: #9a6100; background: #fff4d9; }
+.scrollbar::-webkit-scrollbar { width: 5px; height: 5px; }
+.scrollbar::-webkit-scrollbar-thumb { background: #d8dce7; border-radius: 10px; }
+@media print { .no-print { display: none !important; } body { background: white; } .print-card { box-shadow: none !important; border: 0 !important; } }
