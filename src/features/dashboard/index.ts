@@ -1,0 +1,1 @@
+export const dashboardFeature = { ownerMetrics: ['students', 'fees', 'attendance', 'income-expense'], managerMetrics: ['attendance', 'admissions', 'fees-due'] }
