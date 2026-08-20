@@ -1,0 +1,1 @@
+export const phaseOneStore = { persistence: 'in-memory mock data', phaseTwo: 'local PostgreSQL via IPC' }
