@@ -52,7 +52,7 @@ function Table({ headers, children }: any) { return <div className="card overflo
 
 function App() {
   const [user, setUser] = useState<User | null>(null); const [active, setActive] = useState<ModuleKey>('dashboard'); const [students, setStudents] = useState(studentsSeed); const [query, setQuery] = useState(''); const [showAdd, setShowAdd] = useState(false)
-  if (!user) return <Login onLogin={setUser}/>
+  if (!user) return <Login onLogin={(next) => { setActive('dashboard'); setUser(next) }}/>
   const visibleNav = nav.filter(n=>!n.owner || user.role==='owner')
   const title = nav.find(n=>n.key===active)?.label || 'Dashboard'
   const filtered = students.filter(s => `${s.name} ${s.admissionNo} ${s.className}`.toLowerCase().includes(query.toLowerCase()))
