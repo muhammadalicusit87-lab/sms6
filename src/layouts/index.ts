@@ -1,0 +1,1 @@
+export const layouts = { owner: 'full-access layout', manager: 'operational-access layout' }
