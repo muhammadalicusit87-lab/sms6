@@ -1,0 +1,1 @@
+export const reportsFeature = { reports: ['fees', 'defaulters', 'attendance', 'results', 'income-expense', 'student-strength'] }
